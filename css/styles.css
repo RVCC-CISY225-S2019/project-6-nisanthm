@@ -1,0 +1,90 @@
+/*
+styles.css
+CSS for IDMX 22 project 5
+*/
+/* base */
+/* 
+Explain below rules
+- body takes care of the font customizer and set the font Montserrat for all of the body using inheritance
+- having max width at 100% sets the size for all images using inheritance
+*/
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+img {
+  max-width: 100%;
+}
+h1, 
+h2{
+  font-family: Merriweather,serif;
+}
+/*
+Explain below rules
+aligns all text into the center as these rules are set for the entire document not just one part
+*/
+
+.content {
+  text-align: center;
+}
+/*
+Explain below rules
+sizing based on the root element font so that all font rules will act accordiningly in response to the root font
+2 rems to the font size and the align vertically to the top
+*/
+.page-title {
+  display: inline;
+  font-size: 2rem;
+  vertical-align: top;
+}
+/*
+Explain below rules
+aligns the text after "i want to be" as the answer to the question,and then chooses the font and then the alignments
+sets 2 rems margins to the page title
+*/
+.iama{ 
+  font-family: Merriweather, serif;
+  text-align: left;
+  margin-left: 1rem;
+}
+/*
+Explain below rules
+styles the answer part to 1.2rem, a little more than the 16 pixels that was used above for 1rem
+also font size determines the size for my-info
+
+there is two rems 0 and 2 so that both top and left padding are set
+*/
+.my-info{
+  font-size: 1.2rem;
+  padding: 0 2rem;
+}
+/*
+Explain below rules
+sets the border, width, and the radius for set border
+sets the width for the first time 25%
+*/
+.my-picture{
+  width: 25%;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+/*
+Explain below rules
+picks dark purple as a background color.
+adds margins 4 and 2 to the padding  
+*/
+.hero,
+.footer{ 
+  background-color: rgb(43, 10,73);
+  color: #ffffff;
+  padding: 1rem 2rem;
+}
+/*
+Explain below rules
+gave the padding 2 rems and then aligned the footer to the center
+*/
+.footer{
+  text-align: center;
+font-size: 1rem;
+padding: 4rem 2rem;
+}
