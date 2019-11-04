@@ -1,9 +1,9 @@
-## Project 5
+## Project 6
 
-### project 5 is amazing and great
+### project 6 is alright
 
 * instructions
-## css box modeling and positioning
+## responsive web design
 
 ### Resources
 
