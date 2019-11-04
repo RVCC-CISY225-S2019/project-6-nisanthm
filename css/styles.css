@@ -91,7 +91,7 @@ gave the padding 2 rems and then aligned the footer to the center
 /* responsive web design*/
 
 h2  {
-  "padding-left:  1rem;"
+  padding-left:  1rem;
   }
   figcaption  {
   margin:  0  2rem;
