@@ -78,6 +78,7 @@ adds margins 4 and 2 to the padding
   background-color: rgb(43, 10, 73);
   color: #ffffff;
   padding: 1rem 2rem;
+  margin: 0 -1rem;
 }
 /*
 Explain below rules
@@ -102,7 +103,8 @@ h2  {
   */
   .my-name,
   .my-location  {
-  font-size:  1.25rem; margin:  0  1rem;
+  font-size:  1.25rem; 
+  margin:  0  1rem;
   }
   /*  article  */
   /*
