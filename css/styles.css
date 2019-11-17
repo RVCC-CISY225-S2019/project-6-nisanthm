@@ -12,9 +12,11 @@ Explain below rules
 body {
   font-family: Montserrat, sans-serif;
 }
+
 img {
   max-width: 100%;
 }
+
 h1,
 h2 {
   font-family: Merriweather, serif;
@@ -91,129 +93,146 @@ gave the padding 2 rems and then aligned the footer to the center
 }
 /* responsive web design*/
 
-h2  {
-  padding-left:  1rem;
-  }
-  figcaption  {
-  margin:  0  2rem;
-  }
-  /*  hero  */
-  /*
+h2 {
+  padding-left: 1rem;
+}
+
+figcaption {
+  margin: 0 2rem;
+}
+/*  hero*/
+/*
   comment
-  */
-  .my-name,
-  .my-location  {
-  font-size:  1.25rem; 
-  margin:  0  1rem;
-  }
-  /*  article  */
-  /*
-  comment
-  */
-  .story  {
-  padding:  2rem  0;
-  }
-  .story h2 {
-    font-size: 3rem;
-    text-align: center;
-    }
-    .story p {
-    margin: 1rem 2rem;
-    font-size: 1.5rem;
-    }
-    /* layout */
-    /* mobile is the default layout (no media queries needed) */
-    /*
-    comment
-    */
-    .about-content {
-    display: grid;
-    grid-template-columns: 3fr 4fr 3fr;
-    justify-items: center;
-    }
-    .iama,
-    .my-info {
-    grid-column: 2/3;
-    font-size: 2rem;
-    }
-    .iama {
-    justify-self: left;
-    }
-    .my-info {
-    justify-self: right;
-    }
-    /* tablet layout  48rem (768px) */
-    @media screen and (min-width: 48rem) {
-    /*
-    comment
-    */
-    .page-title {
-    font-size: 3rem;
-    }
-    h2 {
-      font-size: 2rem;
-      }
-      .my-name,
-      .my-location {
-      font-size: 1.5rem;
-      }
-      figure {
-      margin: 1rem;
-      }
-      /*
-comment
 */
-.gallery figure {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  }
-  figcaption {
-  font-size: 1.5rem;
-  }
-  }
-  /* wide screen layout  90rem (1440px) */
-  @media screen and (min-width: 90rem) {
-  /*
+.my-name,
+.my-location {
+  font-size: 1.25rem;
+  margin: 0 1rem;
+}
+/*  article*/
+/*
   comment
-  */
-  .my-picture {
-  max-width: 20rem;
-  }
-  /*
-  comment
-  */
-  .gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: start;
-  }
-  .gallery h2 {
-  grid-column: 1/4;
-  }
-  .gallery hr {
-  display: none;
-  }
-  .gallery figure {
-  grid-template-columns: 1fr;
-  align-items: center;
-  }
-  figcaption {
-  padding: 3rem;
-  font-size: 1.5rem;
-  }
-  /*
-comment
 */
 .story {
+  padding: 2rem 0;
+}
+
+.story h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.story p {
+  margin: 1rem 2rem;
+  font-size: 1.5rem;
+}
+/* layout */
+/* mobile is the default layout (no media queries needed) */
+/*
+    comment
+*/
+.about-content {
   display: grid;
-  grid-template-columns: 1fr 40rem 1fr;
+  grid-template-columns: 3fr 4fr 3fr;
+  justify-items: center;
+}
+
+.iama,
+.my-info {
+  grid-column: 2/3;
+  font-size: 2rem;
+}
+
+.iama {
+  justify-self: left;
+}
+
+.my-info {
+  justify-self: right;
+}
+/* tablet layout  48rem (768px) */
+@media screen and (min-width: 48rem) {
+  /*
+    comment
+*/
+  .page-title {
+    font-size: 3rem;
   }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .my-name,
+  .my-location {
+    font-size: 1.5rem;
+  }
+
+  figure {
+    margin: 1rem;
+  }
+
+  /*
+comment
+*/
+  .gallery figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  figcaption {
+    font-size: 1.5rem;
+  }
+}
+/* wide screen layout  90rem (1440px) */
+@media screen and (min-width: 90rem) {
+  /*
+  comment
+*/
+  .my-picture {
+    max-width: 20rem;
+  }
+  /*
+  comment
+*/
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+  }
+
+  .gallery h2 {
+    grid-column: 1/4;
+  }
+
+  .gallery hr {
+    display: none;
+  }
+
+  .gallery figure {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  figcaption {
+    padding: 3rem;
+    font-size: 1.5rem;
+  }
+  /*
+comment
+*/
+  .story {
+    display: grid;
+    grid-template-columns: 1fr 40rem 1fr;
+  }
+
   .story h2 {
     grid-column: 1/4;
-}
-.story p {
-grid-column: 2/3;
-line-height: 1.5;
-}
+  }
+
+  .story p {
+    grid-column: 2/3;
+    line-height: 1.5;
+  }
 }
